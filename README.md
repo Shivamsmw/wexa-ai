@@ -5,6 +5,25 @@ Graph-powered Book Recommendation Explorer
 
 This sample app demonstrates a book discovery experience with CognoDB as the graph database backend. The app lets users search books by title, author, or genre, see book details, and explore recommendations based on shared genres and user ratings.
 
+## UI Screenshots
+
+### Home View
+The main interface features a search bar, book browsing, and detailed views with related recommendations.
+
+![Graph Book Explorer Home](screenshots/home-view.png)
+
+### Book Details
+Browse books with detailed information including author, publication year, genres, and recommendations based on shared genres.
+
+![Book Details View](screenshots/book-details.png)
+
+## Demo Video
+
+<video width="100%" controls>
+  <source src="videos/Graph Book Explorer.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 ## Why a graph database?
 A graph database is a strong fit for this use case because the domain is about relationships:
 - Books are connected to authors and genres.
